@@ -219,7 +219,8 @@ td {
     }
     /*table*/
     table {
-        max-width: 90%;
+        font-size: 0.8em;
+        max-width: 95%;
     }
 }
 
