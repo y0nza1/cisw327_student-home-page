@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Jen Liang
+    W1584277 @ SCC
+    Date: 2024-04-13
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jen's CISW327 Student Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>/*style.css*/</style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="y0nza1_favicon.png" type="image/ico">
+</head>
+
+<body>
+    <div id="wrapper">
+    <header>
+    <div id="h1">
+        <h1><a href="index.html">CISW 327 | Jen L. | Spring 2024</a></h1>
+    </div>
+    </header>
+
+ 
+    <div id="nav">
+        <a class="cyan" href="#introduction">Introduction</a> | 
+        <a class="green" href="#goals">Goals</a> | 
+        <a class="red" href="#assignments">Assignments</a>
+    </div>
+
+    <div id="main">
+    <main>
+
+        <div id="introduction">
+        <h1 class="cyan">Introduction</h1>
+        <p>Hi there. This is my website, where I host updates on my projects and perhaps other things about myself in general.</p>
+            <img src="miata.png" alt="my car, of course" class="center_small">
+            <figcaption>My car - a 1997 Mazda Miata MX-5 (because I honestly don't really know what to put here, but it's a pretty cool car, right?).</figcaption>
+        </div>
+
+    <div id="nav">
+        <a class="cyan" href="#introduction">Introduction</a> | 
+        <a class="green" href="#goals">Goals</a> | 
+        <a class="red" href="#assignments">Assignments</a>
+    </div>
+
+        <div id="goals">
+        <h1 class="green">Education / Career Goals</h1>
+        <p>I'm currently a student at SCC (Sacramento City College). My current goal is to get my AS in Computer Science while I finish up requirements to transfer to UC Davis for Political Science. Ultimately, I hope to combine my passion in political theory, statistics, and technology to contribute my knowledge and efforts for social change in this crazy world. </p>
+        <p>This year, I am focusing on solidifying some fundamental knowledge and skillsets with classes in the CIS department. This includes algorithm design, beginning and intermediate Linux, and beginning web design. These subjects may seem a bit disparate, but they are the underlying foundation in three different areas of technology that I want to explore in greater depth in the future, that is - software engineering, operating systems, and making web-accessible content. So it's not totally random or anything. </p>
+            <img src="code.png" alt="just some code" class="center_large">
+            <figcaption>Some code I've been working on this semester. From left to right: C++, bash scripting, and HTML/CSS.</figcaption>
+        <p>I've been learning a lot so far, so I have much too look forward to in the future! Some topics that I am especially excited to explore is using graphical libraries with C++, computational physics, more advanced automation with scripting, and using frameworks and plugins for web development projects.</p>
+        <p>Aside from the technology-adjacent side of things, I am continuing to sharpen my mind with political essays by Hannah Arendt and John Rawls. Since my concentration is in International Relations, it's also important that I also keep my bilingual skills and foreign awareness shap as well!</p>
+        </div>
+
+    <div id="nav">
+        <a class="cyan" href="#introduction">Introduction</a> | 
+        <a class="green" href="#goals">Goals</a> | 
+        <a class="red" href="#assignments">Assignments</a>
+    </div>
+
+        <div id="assignments">
+        <h1 class="red">Assignments</h1>
+        <p>I'm enrolled in CISW327, and taking the opportunity to work on this website as a project while showcasing the assignments I've worked on throughout the semester. Below are links to the assignments!</p>
+        <table>
+            <tr>
+                <th>Case Study #1 - Java Jam Coffee House</th>
+                <td>
+                <a target="_blank" href="./javajam/ch2/index.html">ch2</a> |
+                <a target="_blank" href="./javajam/ch3/index.html">ch3</a> |
+                <a target="_blank" href="./javajam/ch4/index.html">ch4</a> 
+                </td>
+            </tr>
+            <tr>
+                <th>Case Study #2 - Path of Light Yoga</th>
+                <td>
+                <a target="_blank" href="./yoga/ch2/index.html">ch2</a> |
+                <a target="_blank" href="./yoga/ch3/index.html">ch3</a> |
+                <a target="_blank" href="./yoga/ch4/index.html">ch4</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Case Study #3 - Java Jam Coffee House (cont.)</th>
+                <td>
+                <a target="_blank" href="./javajam/ch6/index.html">ch6</a> |
+                <a target="_blank" href="./javajam/ch7/index.html">ch7</a>
+                </td>
+            </tr>
+            <tr>
+                <th>Case Study #4 - Java Jam Coffee House (cont.)</th>
+                <td>
+                <a target="_blank" href="./javajam/ch8/index.html">ch8</a> |
+                <a target="_blank" href="./javajam/ch9/index.html">ch9</a> |
+                <a target="_blank" href="./javajam/ch11/index.html">ch11</a> |
+                <a target="_blank" href="./javajam/ch9/index.html">ch12</a>
+                </td>
+            </tr>
+        </table>
+        </div>
+
+    </div>
+    </main>
+
+    <div id="nav">
+        <a class="cyan" href="#introduction">Introduction</a> | 
+        <a class="green" href="#goals">Goals</a> | 
+        <a class="red" href="#assignments">Assignments</a>
+    </div>
+
+    <footer>
+        <small>Copyright &copy; 2024 y0nza1 | Jen Liang</small><br>
+        <small><b><a href="https://github.com/y0nza1">GitHub</a></b></small>
+    </footer>
+    </div>
+</body>
+
+</html>
