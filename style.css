@@ -1,0 +1,226 @@
+/*
+Jen Liang
+W1584277 @ SCC
+Date: 2024-04-13
+*/
+
+/*theme*/
+body { 
+    background-color:#101010; 
+    color: #ffffff;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 15px;
+    font-weight: 100; }        
+h1 { 
+    background-color: #313131;
+    color: #ffbb30;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    box-shadow: 0px 0px 5px 5px #1e1e1e90; }
+nav { 
+    background-color: #ffffff80; 
+    font-weight: 300;
+    font-size: 1.25em;
+    text-align: center;
+    letter-spacing: 3px; 
+    box-shadow: 0px 0px 5px 5px #1e1e1e80; }
+a { 
+    color: #ffbb30; 
+    text-decoration: none;
+    text-transform: null; } 
+main { 
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Noto Sans SC', sans-serif;
+    font-size: 15px;
+    font-weight: 200; 
+    box-shadow: 0px 0px 5px 5px #1e1e1e90; }
+h2 { 
+    font-weight: 200;
+    text-indent: 0.5em; }
+h3 { 
+    background-color: #353535;
+    color: #ffffff;
+    font-weight: 300;
+    text-indent: 0.5em; }
+footer { 
+    color: #ffbb30; 
+    font-weight: 300; }
+
+/*fonts*/
+
+/*classes*/
+.center_small { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 30%;
+    max-height: 30%; 
+}
+.center_large {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+.feature { background-color: #313131;
+    color: #ffbb30;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 3px;
+    border-radius: 15px;
+    padding: 0.5%;
+}
+.cyan {
+    color: #45a6c3;
+    font-weight: 400;
+}
+.green {
+    color: #2f9750;
+    font-weight: 400;
+}
+.red{
+    color: #b63a22;
+    font-weight: 400;
+}
+
+/*ids*/
+#wrapper { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; 
+}
+#h1 {
+    padding: 5px; 
+}
+#nav {
+    text-align: center;
+    padding: 0.5em;
+}
+#main {
+    padding: 5px; 
+}
+#introduction {
+    padding: 0px;
+}
+#goals {
+    padding: 0px;
+}
+#assignments {
+    padding: 0px;
+}
+
+/*formatting*/
+* {
+    box-sizing: border-box; 
+}
+h1 {
+    padding: 10px; 
+    border: 3px solid #ffbb30;
+    border-radius: 15px; 
+    box-sizing:border-box; 
+}
+nav {
+    padding: 10px;
+    border: 3px solid #ffbb30;
+    border-radius: 15px;
+    box-sizing:border-box; 
+}
+main {
+    position: relative;
+    display: block;
+    padding: 10px;
+    padding-bottom: 15px;
+    border: 3px solid #ffbb30;
+    border-radius: 15px;
+    box-sizing:border-box; 
+}
+h2 { border-left: 3px solid #ffbb30; 
+}
+h3 { border-left: 3px solid #ffbb30; 
+}
+p { padding-left: 5px; 
+}
+/* alternative img format
+img { 
+    width: auto;
+    height: auto; 
+} */
+img {
+    height: auto;
+    width: auto;
+}
+figcaption { 
+    text-align: center; 
+    font-size: 0.80em; 
+}
+footer { 
+    border-top: thin solid #333333 ; 
+    padding-top: 10px; 
+    padding-left: 5px; 
+}
+
+/*table formatting*/
+table {
+    width: 80;
+    margin: auto;
+    border-spacing: 0;
+    background-color: #313131;
+}
+th {
+    text-align: left;
+    color:#ffbb30;
+    padding: 10px;
+}
+td {
+    color: #ffffff;
+    padding: 10px;
+}
+
+/*media queries*/
+/*desktop*/
+@media screen and (min-width: 1025px) {
+    /*formatting*/
+    #nav {
+        display: none;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width: 1024px) {
+    main {
+        padding: 0.8em;
+    }
+    /*ids*/
+    #wrapper {
+        width: 95%;
+    }
+}
+
+/*smartphone*/
+@media screen and (max-width: 780px) {
+    main {
+        padding: 0.5em;
+        font-size: 0.8em;
+    }
+    h1 {
+        font-size: 1em;
+        padding: 0.5em; 
+        border: 2px solid #ffbb30;
+        border-radius: 15px; 
+        box-sizing:border-box; 
+    }
+    /*ids*/
+    #wrapper {
+        width: 97%;
+    }
+    /*table*/
+    table {
+        max-width: 90%;
+    }
+}
+
+
